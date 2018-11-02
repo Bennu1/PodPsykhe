@@ -110,8 +110,16 @@ public class Inicio extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-
-            return PlaceholderFragment.newInstance(position + 1);
+           //return PlaceholderFragment.newInstance(position + 1);
+            switch (position){
+                case 0:
+                    Podcast podcastFragment = new Podcast();
+                    return podcastFragment;
+                case 1:
+                    Episodios episodiosFragment = new Episodios();
+                    return episodiosFragment;
+            }
+            return null;
         }
 
         @Override
