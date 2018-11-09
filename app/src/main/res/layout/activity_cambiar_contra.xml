@@ -113,7 +113,7 @@
         app:layout_constraintTop_toBottomOf="@+id/TxtPassR" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/user"
         android:layout_width="34dp"
         android:layout_height="42dp"
         android:layout_marginStart="17dp"
@@ -124,14 +124,14 @@
         app:srcCompat="@drawable/usuario" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/pas"
         android:layout_width="36dp"
         android:layout_height="41dp"
         android:layout_marginStart="17dp"
         android:layout_marginLeft="17dp"
         android:layout_marginTop="48dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/user"
         app:srcCompat="@drawable/pass" />
 
     <ImageView
@@ -142,7 +142,7 @@
         android:layout_marginLeft="17dp"
         android:layout_marginTop="48dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/pas"
         app:srcCompat="@drawable/pass" />
 
     <TextView

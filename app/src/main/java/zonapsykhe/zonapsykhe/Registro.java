@@ -94,10 +94,13 @@ public class Registro extends AppCompatActivity implements View.OnClickListener 
 
     public void onClick(View view){
         registratUsuario();
+
+
     }
 
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
+
 
     }
 }
